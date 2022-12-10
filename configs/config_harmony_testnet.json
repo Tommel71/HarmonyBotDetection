@@ -1,0 +1,17 @@
+{
+  "name":"Harmony_Testnet",
+  "RPC":"https://api.s0.b.hmny.io",
+  "chainId": 1666700000,
+  "gasPrice": 42,
+  "gas": 3000000,
+  "until_block":24211169,
+  "interval":20000,
+  "blockrange_swaps":10000,
+  "lookahead_liq_block_interval": 10000,
+  "lookahead_liq_reps": 1,
+  "percentage_pairs": 1,
+  "WONE_address": "0x7466d7d0c21fa05f32f5a0fa27e12bdc06348ce2",
+  "exchanges": {
+  "defikingdoms": "0xa755d4728b74ae0d76eca76d0a36d4ffc1544122"
+}
+}

@@ -1,0 +1,13 @@
+{
+  "name":"Binance",
+  "RPC":"https://bsc-dataseed.binance.org/",
+  "until_block":16000000,
+  "interval":5000,
+  "blockrange_swaps":300,
+  "lookahead_liq_block_interval": 100,
+  "lookahead_liq_reps": 1,
+  "percentage_pairs": 0.01,
+  "exchanges": {
+  "pancakeswap": "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+}
+}

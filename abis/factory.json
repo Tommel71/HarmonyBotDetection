@@ -1,0 +1,189 @@
+[
+    {
+        "type": "constructor",
+        "stateMutability": "nonpayable",
+        "inputs": [
+            {
+                "name": "_feeToSetter",
+                "type": "address",
+                "internalType": "address"
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "inputs": [
+            {
+                "internalType": "address",
+                "indexed": true,
+                "type": "address",
+                "name": "token0"
+            },
+            {
+                "type": "address",
+                "indexed": true,
+                "name": "token1",
+                "internalType": "address"
+            },
+            {
+                "internalType": "address",
+                "indexed": false,
+                "name": "pair",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "name": "PairCreated"
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "internalType": "address",
+                "type": "address"
+            }
+        ],
+        "name": "allPairs",
+        "stateMutability": "view"
+    },
+    {
+        "name": "feeTo",
+        "stateMutability": "view",
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "type": "function",
+        "inputs": []
+    },
+    {
+        "stateMutability": "view",
+        "inputs": [],
+        "type": "function",
+        "name": "feeToSetter",
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ]
+    },
+    {
+        "name": "getPair",
+        "inputs": [
+            {
+                "name": "",
+                "internalType": "address",
+                "type": "address"
+            },
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "type": "function",
+        "stateMutability": "view"
+    },
+    {
+        "name": "allPairsLength",
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "uint256",
+                "internalType": "uint256",
+                "name": ""
+            }
+        ],
+        "type": "function",
+        "stateMutability": "view"
+    },
+    {
+        "stateMutability": "pure",
+        "name": "pairCodeHash",
+        "type": "function",
+        "outputs": [
+            {
+                "name": "",
+                "internalType": "bytes32",
+                "type": "bytes32"
+            }
+        ],
+        "inputs": []
+    },
+    {
+        "name": "createPair",
+        "outputs": [
+            {
+                "type": "address",
+                "internalType": "address",
+                "name": "pair"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "inputs": [
+            {
+                "name": "tokenA",
+                "internalType": "address",
+                "type": "address"
+            },
+            {
+                "name": "tokenB",
+                "internalType": "address",
+                "type": "address"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "outputs": [],
+        "type": "function",
+        "name": "setFeeTo",
+        "inputs": [
+            {
+                "type": "address",
+                "internalType": "address",
+                "name": "_feeTo"
+            }
+        ],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "type": "address",
+                "name": "_feeToSetter"
+            }
+        ],
+        "name": "setFeeToSetter",
+        "type": "function",
+        "stateMutability": "nonpayable",
+        "outputs": []
+    }
+]

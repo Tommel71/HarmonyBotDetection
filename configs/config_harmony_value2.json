@@ -1,0 +1,18 @@
+{
+  "name":"Harmony_value_2",
+  "RPC":"https://rpc.cosmicuniverse.one/",
+  "chainId": 1666600000,
+  "gasPrice": 42,
+  "gas": 3000000,
+  "interval":100000,
+  "blockrange_swaps":1000,
+  "lookahead_liq_block_interval": 100000,
+  "lookahead_liq_reps": 1,
+  "percentage_pairs": 1,
+  "WONE_address": "0xcf664087a5bb0237a0bad6742852ec6c8d69a27a",
+  "exchanges": {
+  "sushi": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+  "viper": "0xf012702a5f0e54015362cbca26a26fc90aa832a3",
+  "defikingdoms": "0x24ad62502d1c652cc7684081169d04896ac20f30"
+}
+}

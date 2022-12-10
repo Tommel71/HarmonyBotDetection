@@ -1,0 +1,10 @@
+{
+  "name":"Near",
+  "RPC":"https://archival-rpc.mainnet.near.org",
+  "interval":5000,
+  "blockrange_swaps":300,
+  "lookahead_liq_block_interval": 100,
+  "lookahead_liq_reps": 1,
+  "percentage_pairs": 0.01,
+  "n_latest_pairs": 1000
+}

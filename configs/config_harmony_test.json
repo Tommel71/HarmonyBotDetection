@@ -1,0 +1,16 @@
+{
+  "name":"Harmony_Test",
+  "RPC":"https://rpc.cosmicuniverse.one/",
+  "until_block":25000000,
+  "interval":100000,
+  "blockrange_swaps":1000,
+  "lookahead_liq_block_interval": 10000,
+  "lookahead_liq_reps": 1,
+  "percentage_pairs": 1,
+  "exchanges": {
+  "sushi": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+  "viper": "0xf012702a5f0e54015362cbca26a26fc90aa832a3",
+  "defikingdoms": "0x24ad62502d1c652cc7684081169d04896ac20f30",
+  "mochi": "0x5f4467ccfa269bced8f2bc4057bbf17435d11a0d"
+}
+}
